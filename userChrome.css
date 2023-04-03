@@ -4,6 +4,12 @@
 @import url(moduls/extensions.css); /* Author: https://www.reddit.com/r/FirefoxCSS/comments/10fl39n/made_these_two_different_styles_for_people_who/ */
 
 
+/* Изменение цвета фона контекстного меню */
+
+:is(panel, menupopup)::part(content) {
+    background-color: red !important;
+}
+
 /*
 @import url(moduls/tabs-on-bottom.css);
 @import url(moduls/window_control_placeholder_support.css);
