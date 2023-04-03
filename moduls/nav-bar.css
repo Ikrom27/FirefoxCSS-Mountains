@@ -1,0 +1,69 @@
+#nav-bar {
+    padding-left: 5px !important;
+    background-color: #1F1F1F !important;
+}
+  
+#nav-bar .toolbarbutton-1:not([type="menu-button"]), 
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button, 
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
+    padding: 0 !important; 
+}
+
+
+/* URL BAR */
+#urlbar:not([focused]) .urlbar-input{ 
+    text-align: center !important; 
+}
+#urlbar:not([focused]) .urlbar-input-box {
+    text-align: center;
+}
+
+#identity-icon-labels {
+    transform: translateY(-1px);
+}
+#urlbar-background {
+    border-color: #3b3b3b !important;
+    background: #343434 !important;    
+    margin: 1px 0 !important;
+    border-radius: 8px !important;
+}
+#identity-box.extensionPage{
+    display: none !important; 
+}
+
+
+/* buttons design */
+#nav-bar toolbarbutton > .toolbarbutton-icon {
+    padding: 3.25px 11px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+    height: 30px !important;
+    width: 39px !important;
+    border-radius: 7px !important;
+}
+
+.toolbarbutton-1 {
+    --toolbarbutton-hover-background: #343434 !important;
+    --toolbarbutton-active-background: #343434 !important;
+  }
+
+#new-tab-button,
+.tabs-newtab-button {
+    list-style-image: url("icons/newtab.svg") !important;
+    -moz-image-region: auto !important;
+}
+#back-button {
+    list-style-image: url('icons/back.svg') !important;
+}
+#forward-button {
+    list-style-image: url('icons/forward.svg') !important;
+}
+#downloads-button{
+    list-style-image: url('icons/forward.svg') !important;
+}
+
+/* Remove back button circle */
+#back-button:not(:hover),
+#back-button:not(:hover) > .toolbarbutton-icon {
+background: transparent !important;
+border: none !important; box-shadow: none !important; }

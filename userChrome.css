@@ -1,0 +1,11 @@
+@import url(moduls/nav-bar.css);
+@import url(moduls/tab-bar.css);
+@import url(moduls/context-menu.css);
+@import url(moduls/extensions.css); /* Author: https://www.reddit.com/r/FirefoxCSS/comments/10fl39n/made_these_two_different_styles_for_people_who/ */
+
+
+/*
+@import url(moduls/tabs-on-bottom.css);
+@import url(moduls/window_control_placeholder_support.css);
+thank you
+*/

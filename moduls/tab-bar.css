@@ -1,0 +1,10 @@
+.browser-toolbar {
+    background-color: #1F1F1F !important;
+}
+.tab-background {
+    border-radius: 7px !important;
+}
+
+#tab-background {	max-height: 30px !important;}
+:root {	--tab-min-height: 30px !important;
+	--tab-max-height: 30px !important;}
