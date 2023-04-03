@@ -15,5 +15,5 @@ After that, you need to download the archive by clicking the green Code button, 
 ## My recommendations
 Configure the toolbar as shown below.
 <p align="center">
-  <img src="https://github.com/Ikrom27/FirefoxCSS-Mountains/edit/settings.png" height="29" />
+  <img src="https://github.com/Ikrom27/FirefoxCSS-Mountains/blob/main/settings.png"/>
 </p>
