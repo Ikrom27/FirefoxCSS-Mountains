@@ -1,17 +1,8 @@
 @import url(moduls/nav-bar.css);
 @import url(moduls/tab-bar.css);
-@import url(moduls/context-menu.css);
-@import url(moduls/extensions.css); /* Author: https://www.reddit.com/r/FirefoxCSS/comments/10fl39n/made_these_two_different_styles_for_people_who/ */
-
-
-/* Изменение цвета фона контекстного меню */
-
-:is(panel, menupopup)::part(content) {
-    background-color: red !important;
-}
-
-/*
-@import url(moduls/tabs-on-bottom.css);
-@import url(moduls/window_control_placeholder_support.css);
-thank you
-*/
+@import url(moduls/extensions.css);
+@import url(moduls/tab-preview-on-hover.css);
+@import url(moduls/searchbar.css);
+@import url(moduls/test.css);
+@import url(moduls/picture-in-picture.css);
+/* @import url(moduls/mica.css); */

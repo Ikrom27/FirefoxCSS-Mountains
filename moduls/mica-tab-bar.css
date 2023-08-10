@@ -1,0 +1,8 @@
+#main-window {
+	background-color: transparent !important;
+	-moz-appearance: -moz-win-borderless-glass !important;
+}
+#navigator-toolbox {
+	background: transparent !important;
+	-moz-appearance: -moz-win-borderless-glass !important;
+}

@@ -1,8 +1,7 @@
-.browser-toolbar {
-    background-color: #1F1F1F !important;
-}
+
 .tab-background {
     border-radius: 7px !important;
+    margin-top: 7px !important;
 }
 
 #tab-background {	max-height: 30px !important;}
