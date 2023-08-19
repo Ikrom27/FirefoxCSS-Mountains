@@ -1,13 +1,8 @@
-#nav-bar {
-    padding-left: 5px !important;
-}
-  
 #nav-bar .toolbarbutton-1:not([type="menu-button"]), 
 #nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button, 
 #nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
     padding: 0 !important; 
 }
-
 
 /* URL BAR */
 #urlbar:not([focused]) .urlbar-input{ 
@@ -21,8 +16,17 @@
     transform: translateY(-1px);
 }
 
-#urlbar-background {  
+:root {
+    --urlbar-icon-border-radius: 6px !important;
+}
+
+#urlbar-background {
+    /* background-image: url("WhiteNoiseDitheringBlurred.png") !important; */
+    padding: 2px !important;
     margin: 1px 0 !important;
+    border-style: solid !important;
+    border-color: rgba(128, 128, 128, 0.2) !important;
+    border-width: 2px !important;
     border-radius: 8px !important;
 }
 #identity-box.extensionPage{
